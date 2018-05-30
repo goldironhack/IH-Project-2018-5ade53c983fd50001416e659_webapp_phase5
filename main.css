@@ -1,0 +1,43 @@
+/* *{ 
+    font-family:tahoma;
+} */
+/* Show it is fixed to the top */
+body {
+    min-height: 32rem;
+    padding-top: 3.0rem;
+  }
+#map {
+    height: 50vw;
+    width: 100%;
+    background-color: grey;
+}
+/* 
+#siteNotice {
+    /* margin: 0.5%; 
+    word-wrap: break-word;
+} */
+
+#bodyContent {
+    height: 5vw;
+    width: 15em;
+    word-wrap: break-word;
+}
+
+.jumbotron-header {
+    margin-bottom:0;
+    background-image: url(https://k62.kn3.net/AA1DF6E8D.jpg); 
+    background-size: cover;
+    
+}
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
+    color: #fff;
+    cursor: default;
+    background-color: #0275d8;
+}
+
+ .nav-link:hover {
+  border-bottom-color: rgba(45, 199, 66, 0.25);
+}
+
+/* Arreglar active en futuros commits */
